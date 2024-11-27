@@ -246,6 +246,11 @@ h1{
             color: var(--red);
             font-size: 0.25em;
         }
+
+
+        span{
+            padding-left: 20vh;
+        }
         
         
     }
@@ -310,4 +315,13 @@ h1{
 }
 
 
+.restaurants{
+    .left{
+
+        span{
+            padding: 0;
+        }
+        
+    }
+}
 
