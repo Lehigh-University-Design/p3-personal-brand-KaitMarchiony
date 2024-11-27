@@ -1,0 +1,72 @@
+.gallery{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 2rem;
+
+    .galleryImg{
+        display: flex;
+
+        max-height: 100vh;
+        min-height: 100vh;
+        background-color: aqua;
+        width: 70%;
+
+        .imgCol{
+            max-height: 100%;
+            max-width: 25%;
+            display: flex;
+            flex-direction: column;
+            /* background-color: red; */
+            justify-content: space-around;
+            align-items: center;
+     
+            img{
+
+                /* max-height: 100%; */
+
+    
+                max-width: 75%;
+
+               
+
+            }
+            .tower{
+                aspect-ratio: 2 / 2.5;
+                object-fit: cover;
+  
+            }
+
+            .size2{
+                aspect-ratio: 2 / 2.6;
+                object-fit: cover;
+
+
+            }
+            .size3{
+                aspect-ratio: 1/1.8;
+                object-fit: cover;
+
+            }
+     
+        }
+    }
+
+
+
+    h1{
+        font-family: "Libre Bodoni", serif;
+        font-optical-sizing: auto;
+  
+        font-style: normal;
+        
+        font-size: 5rem;
+        color: var(--red);
+
+    }
+
+    
+
+}
