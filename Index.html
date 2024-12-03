@@ -27,8 +27,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Cinzel&family=Dosis:wght@200..800&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Molle&family=NTR&family=Norican&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="Script.js"></script>
+
 
     <title>Document</title>
 </head>
@@ -74,7 +76,7 @@
 
 
 
-  <div class = "about container" id = "AboutMe">
+  <div class = "about container" id = "AboutMe"  data-aos="fade-in" data-aos-duration="2500">
     <h1>About Me</h1>
     <img src="Images/About.jpg" alt="">
 
@@ -231,7 +233,7 @@
 
   
 
-  <div class = "gallery container" id="Gallery">
+  <div class = "gallery container" id="Gallery" data-aos="fade-in" data-aos-duration="2000">
     <h1>GALLERY</h1>
 
     <div class = "galleryImg">
@@ -281,6 +283,9 @@
 
 
   
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

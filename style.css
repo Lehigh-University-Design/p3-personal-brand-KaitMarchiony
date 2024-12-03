@@ -83,6 +83,7 @@ h1{
 .bonjour{
     /* height: 100%; */
     /* min-height: 100vh; */
+    max-width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -138,6 +139,7 @@ h1{
 
     img{
         width: 60%;
+        max-width:70%;
     }
 
 
@@ -274,3 +276,77 @@ h1{
     --animate-repeat: 10;
   } */
 
+  @media only screen and (max-width: 768px) {
+
+    .gallery{
+        margin-top: 5%;
+        .galleryImg{
+            max-width: 96%;
+        }
+
+    }
+    .navBar{
+        visibility: hidden;
+            
+    }
+    .mustsee{
+        left: 0;
+        margin: 0% 0; /*[topbottom] [leftright] */
+
+        
+        width: 100%;
+        h1{
+            font-size: 20vw;
+        }
+    
+        flex-direction: column;
+        h5{
+            text-align: center;
+        }
+        .left{
+            margin-left: 0;
+            max-width: 100%;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+           
+
+        }
+
+        .right{
+            max-width: 100%;
+            h3{
+                font-size: 2rem;
+    
+            }
+        }
+    }
+    .bonjour{
+       
+
+        .top{
+            margin: 5% 0; /*[topbottom] [leftright] */
+
+            left: 4%;
+            padding: 1%;
+            width: 96%;
+            justify-content: flex-start;
+            .title{
+                font-size: 10vw;
+            }
+           
+            
+        }
+
+      
+        img{
+            min-width: 3vw;
+       
+        }
+
+    }
+  
+    
+  
+  
+  }
